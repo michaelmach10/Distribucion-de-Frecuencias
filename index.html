@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Tabla de Distribución de Frecuencias</title>
+	<link href="estilo.css" rel="stylesheet" />
+	<script src="script.js"></script>
+</head>
+<body>
+	<h1>Tabla de Distribución de Frecuencias</h1>
+	<button id="new_row">Nueva fila</button>
+	<table>
+		<thead>
+			<th>Xi</th>
+			<th>F.A.</th>
+			<th>F.R.</th>
+			<th>%</th>
+			<th>F.A.A</th>
+		</thead>
+		<tbody id="rows">
+			<tr class="row">
+				<td><input class="x" type="number" /></td>
+				<td><input class="fa" type="number" /></td>
+				<td class="fr"></td>
+				<td class="pc"></td>
+				<td class="faa"></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<td>TOTAL=N</td>
+			<td id="fa">FA</td>
+			<td id="fr">FR</td>
+			<td id="pc">%</td>
+		</tfoot>
+	</table>
+	<button id="exe">Calcular</button>
+</body>
+</html>

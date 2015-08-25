@@ -1,0 +1,42 @@
+body{
+	font-family: arial, helvetica;
+}
+button{
+	background: #fff;
+	border-style: none;
+	border: 1px solid #595faa;
+	color: #595faa;
+	display: block;
+	height: 2em;
+	margin: 1em auto;
+	width: 7em	
+}
+button:hover{
+	background: #595faa;
+	color: #fff;
+}
+h1{
+	color: #00294d;
+	font-size: 1.5em;
+	text-align: center;
+}
+input{
+	height: 1.5em;
+	text-align: center;
+	width: 5em;
+}
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	text-align: center
+}
+tbody td{
+	background: #595faa;
+	border: 1px solid #fff;
+	padding: 0.5em
+}
+th, tfoot td{
+	background: #00294d;
+	color: #fff;
+	width: 6em
+}
